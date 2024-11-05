@@ -10,9 +10,9 @@ document.querySelector('#app').innerHTML = `
             <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
         </a-assets>
 
-        <a-marker-camera type="pattern" preset="custom" url="pattern-logo_jg-e16f856d.patt">
+          <a-marker type='hiro' value='7'>
             <a-box position='0 0.5 0' color="yellow"></a-box>
-        </a-marker-camera>
+        </a-marker>
 
         <a-marker id="animated-marker" type='hiro' value='6'>
             <a-entity

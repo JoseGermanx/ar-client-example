@@ -15,7 +15,7 @@ document.querySelector('#app').innerHTML = `
             <a-box position='0 0.5 0' color="yellow"></a-box>
         </a-marker>
 
-        <a-marker id="animated-marker" type='barcode' value='6'>
+        <a-marker id="animated-marker" type='hiro' value='6'>
             <a-entity
                 gltf-model="#animated-asset"
                 scale="2">
